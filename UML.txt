@@ -1,0 +1,34 @@
+Main
+---
+---
+---
+
+Teste
+association Main
+---
+- atributoPrimitivo: int
+- mapa: Map<id, Usuario>
+- array: int[6]
+--- 
++ Teste()
++ metodoFalso(param1: int, param2: str): void
+---
+
+Controller
+association Jogador
+---
+- jogadores: map<id, Jogadores>
+- currentID: int
+---
++ Controller()
+---
+
+
+Jogador
+---
+- nome: str
+- pontos: int
+- partidas: int
+---
++ Jogador()
+---
