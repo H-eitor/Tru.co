@@ -7,6 +7,7 @@ Os arquivos contidos são:
 - Um repositório envolvendo o sistema em JavaScript, Html e Css
 
 ## Funções
+
 > Cadastrar Jogador
 
 > Adicionar Pontos
@@ -17,6 +18,6 @@ Os arquivos contidos são:
 
 > Começar jogo
 
->Alterar placar do jogo atual
+> Alterar placar do jogo atual
 
 > Finalizar jogo

@@ -3,32 +3,36 @@ Main
 ---
 ---
 
-Teste
-association Main
----
-- atributoPrimitivo: int
-- mapa: Map<id, Usuario>
-- array: int[6]
---- 
-+ Teste()
-+ metodoFalso(param1: int, param2: str): void
----
-
 Controller
-association Jogador
+association Main, Jogador, Partida
 ---
 - jogadores: map<id, Jogadores>
 - currentID: int
 ---
 + Controller()
++ cadastraJogador(nome: str): void
++ novoJogo(jogadores: int[4]): void
 ---
 
 
 Jogador
 ---
+- id: int
 - nome: str
 - pontos: int
 - partidas: int
 ---
 + Jogador()
+---
+
+Partida
+---
+- data: LocalTime
+- placar: int[2]
+- jogadores: Jogador[4]
+---
++ Partida(jogadores: Jogador[4])
++ addPonto(jogadores: int[2]): void
++ addTruco(jogadores: int[2]): void
++ finalizar(): void
 ---
