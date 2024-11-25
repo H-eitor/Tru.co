@@ -8,9 +8,15 @@ Os arquivos contidos são:
 
 ## Funções
 > Cadastrar Jogador
+
 > Adicionar Pontos
+
 > Mostrar placar individual
+
 > Mostrar placar geral
+
 > Começar jogo
-    >> Alterar placar do jogo atual
+
+>Alterar placar do jogo atual
+
 > Finalizar jogo
