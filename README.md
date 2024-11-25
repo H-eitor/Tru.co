@@ -5,3 +5,12 @@ Os arquivos contidos são:
 - Um arquivo de texto contendo a modelagem do código em UML
 - Um repositório envolvendo o sistema em java sem interface gráfica
 - Um repositório envolvendo o sistema em JavaScript, Html e Css
+
+## Funções
+> Cadastrar Jogador
+> Adicionar Pontos
+> Mostrar placar individual
+> Mostrar placar geral
+> Começar jogo
+    >> Alterar placar do jogo atual
+> Finalizar jogo
