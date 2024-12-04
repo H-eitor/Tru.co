@@ -8,12 +8,16 @@ association Main, Jogador, Partida
 ---
 - jogadores: map<id, Jogadores>
 - currentID: int
+- placar: String[10]
 ---
 + Controller()
++ tutorialTruco(): String
 + cadastraJogador(nome: str): void
 + novoJogo(jogadores: int[4]): void
++ placarIndividual(id: int): String
++ placarGeral(): String
++ atualizarPlacar(): String
 ---
-
 
 Jogador
 ---
@@ -23,6 +27,7 @@ Jogador
 - partidas: int
 ---
 + Jogador()
++ toString(): String
 ---
 
 Partida
@@ -30,6 +35,7 @@ Partida
 - data: LocalTime
 - placar: int[2]
 - jogadores: Jogador[4]
+- vencedores: Jogador[2]
 ---
 + Partida(jogadores: Jogador[4])
 + addPonto(jogadores: int[2]): void
